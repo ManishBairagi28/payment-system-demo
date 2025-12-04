@@ -1,0 +1,21 @@
+# Loki datasource configuration
+apiVersion: 1
+
+datasources:
+  - name: Loki
+    type: loki
+    access: proxy
+    url: http://loki:3100
+    uid: loki
+    jsonData:
+      maxLines: 1000
+      derivedFields:
+        - datasourceUid: tempo
+          matcherRegex: "traceId=(\\w+)"
+          name: TraceID
+          url: "$${__value.raw}"
+        - datasourceUid: prometheus
+          matcherRegex: "paymentId=(\\w+)"
+          name: PaymentID
+          url: "/explore?left=%5B%22now-1h%22,%22now%22,%22Prometheus%22,%7B%22expr%22:%22%7Bpayment_id%3D%5C%22$${__value.raw}%5C%22%7D%22%7D%5D"
+    editable: true
