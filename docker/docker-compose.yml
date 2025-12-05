@@ -1,7 +1,7 @@
 services:
   # MySQL Database
   mysql:
-    image: mysql:8.0
+    image: mysql:9.0
     container_name: payment-mysql
     environment:
       MYSQL_ROOT_PASSWORD: root_password
@@ -88,7 +88,7 @@ services:
 
   # MySQL Exporter
   mysql-exporter:
-    image: prom/mysqld-exporter:v0.15.0
+    image: prom/mysqld-exporter:v0.18.0
     container_name: mysql-exporter
     environment:
       DATA_SOURCE_NAME: "exporter:exporter_pass@(mysql:3306)/"
@@ -190,7 +190,7 @@ services:
 
   # Promtail
   promtail:
-    image: grafana/promtail:2.9.0
+    image: grafana/promtail:3.6.2
     container_name: promtail
     volumes:
       - ./promtail/promtail-config.yml:/etc/promtail/config.yml
@@ -206,7 +206,7 @@ services:
 
   # OpenTelemetry Collector
   otel-collector:
-    image: otel/opentelemetry-collector-contrib:0.82.0
+    image: otel/opentelemetry-collector-contrib:0.141.0
     container_name: otel-collector
     volumes:
       - ./otel-collector/otel-collector-config.yml:/etc/otel-collector-config.yml

@@ -3,6 +3,632 @@
   <component name="SymbolSearchPersistentStateComponent">
     <option name="entries">
       <map>
+        <entry key="$USER_HOME$/AppData/Local/JetBrains/IdeaIC2024.3/httpFileSystem/catalog.json">
+          <value>
+            <FileEntry>
+              <option name="meta">
+                <FileMeta>
+                  <option name="timeStamp" value="1764929584935" />
+                  <option name="hash" value="1323930577" />
+                </FileMeta>
+              </option>
+            </FileEntry>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/AppData/Local/JetBrains/IdeaIC2024.3/httpFileSystem/catalog1.json">
+          <value>
+            <FileEntry>
+              <option name="meta">
+                <FileMeta>
+                  <option name="timeStamp" value="1764930786501" />
+                  <option name="hash" value="1323930577" />
+                </FileMeta>
+              </option>
+            </FileEntry>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../IDE_Plugin_IJ/bin/main/com/example/intellicodeagent/AgentService.kt">
+          <value>
+            <FileEntry>
+              <option name="meta">
+                <FileMeta>
+                  <option name="timeStamp" value="1764822562000" />
+                  <option name="hash" value="-588697708" />
+                </FileMeta>
+              </option>
+              <option name="records">
+                <list>
+                  <SymbolRecordBean>
+                    <option name="name" value="AgentService" />
+                    <option name="kind" value="CLASS" />
+                    <option name="filePath" value="$PROJECT_DIR$/../IDE_Plugin_IJ/bin/main/com/example/intellicodeagent/AgentService.kt" />
+                    <option name="startLine" value="5" />
+                    <option name="endLine" value="30" />
+                    <option name="endCharacter" value="1" />
+                    <option name="language" value="kt" />
+                  </SymbolRecordBean>
+                  <SymbolRecordBean>
+                    <option name="name" value="processUserRequest" />
+                    <option name="kind" value="FUNCTION" />
+                    <option name="filePath" value="$PROJECT_DIR$/../IDE_Plugin_IJ/bin/main/com/example/intellicodeagent/AgentService.kt" />
+                    <option name="startLine" value="9" />
+                    <option name="startCharacter" value="4" />
+                    <option name="endLine" value="14" />
+                    <option name="endCharacter" value="5" />
+                    <option name="language" value="kt" />
+                  </SymbolRecordBean>
+                  <SymbolRecordBean>
+                    <option name="name" value="constructPrompt" />
+                    <option name="kind" value="FUNCTION" />
+                    <option name="filePath" value="$PROJECT_DIR$/../IDE_Plugin_IJ/bin/main/com/example/intellicodeagent/AgentService.kt" />
+                    <option name="startLine" value="16" />
+                    <option name="startCharacter" value="4" />
+                    <option name="endLine" value="29" />
+                    <option name="endCharacter" value="5" />
+                    <option name="language" value="kt" />
+                  </SymbolRecordBean>
+                </list>
+              </option>
+            </FileEntry>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../IDE_Plugin_IJ/bin/main/com/example/intellicodeagent/ContextCollector.kt">
+          <value>
+            <FileEntry>
+              <option name="meta">
+                <FileMeta>
+                  <option name="timeStamp" value="1764822532000" />
+                  <option name="hash" value="732654691" />
+                </FileMeta>
+              </option>
+              <option name="records">
+                <list>
+                  <SymbolRecordBean>
+                    <option name="name" value="ContextCollector" />
+                    <option name="kind" value="CLASS" />
+                    <option name="filePath" value="$PROJECT_DIR$/../IDE_Plugin_IJ/bin/main/com/example/intellicodeagent/ContextCollector.kt" />
+                    <option name="startLine" value="9" />
+                    <option name="endLine" value="42" />
+                    <option name="endCharacter" value="1" />
+                    <option name="language" value="kt" />
+                  </SymbolRecordBean>
+                  <SymbolRecordBean>
+                    <option name="name" value="collectContext" />
+                    <option name="kind" value="FUNCTION" />
+                    <option name="filePath" value="$PROJECT_DIR$/../IDE_Plugin_IJ/bin/main/com/example/intellicodeagent/ContextCollector.kt" />
+                    <option name="startLine" value="11" />
+                    <option name="startCharacter" value="4" />
+                    <option name="endLine" value="23" />
+                    <option name="endCharacter" value="5" />
+                    <option name="language" value="kt" />
+                  </SymbolRecordBean>
+                  <SymbolRecordBean>
+                    <option name="name" value="getCurrentFile" />
+                    <option name="kind" value="FUNCTION" />
+                    <option name="filePath" value="$PROJECT_DIR$/../IDE_Plugin_IJ/bin/main/com/example/intellicodeagent/ContextCollector.kt" />
+                    <option name="startLine" value="25" />
+                    <option name="startCharacter" value="4" />
+                    <option name="endLine" value="27" />
+                    <option name="endCharacter" value="5" />
+                    <option name="language" value="kt" />
+                  </SymbolRecordBean>
+                  <SymbolRecordBean>
+                    <option name="name" value="getSelectedCode" />
+                    <option name="kind" value="FUNCTION" />
+                    <option name="filePath" value="$PROJECT_DIR$/../IDE_Plugin_IJ/bin/main/com/example/intellicodeagent/ContextCollector.kt" />
+                    <option name="startLine" value="29" />
+                    <option name="startCharacter" value="4" />
+                    <option name="endLine" value="31" />
+                    <option name="endCharacter" value="5" />
+                    <option name="language" value="kt" />
+                  </SymbolRecordBean>
+                  <SymbolRecordBean>
+                    <option name="name" value="getFileContent" />
+                    <option name="kind" value="FUNCTION" />
+                    <option name="filePath" value="$PROJECT_DIR$/../IDE_Plugin_IJ/bin/main/com/example/intellicodeagent/ContextCollector.kt" />
+                    <option name="startLine" value="33" />
+                    <option name="startCharacter" value="4" />
+                    <option name="endLine" value="41" />
+                    <option name="endCharacter" value="5" />
+                    <option name="language" value="kt" />
+                  </SymbolRecordBean>
+                  <SymbolRecordBean>
+                    <option name="name" value="AgentContext" />
+                    <option name="kind" value="CLASS" />
+                    <option name="filePath" value="$PROJECT_DIR$/../IDE_Plugin_IJ/bin/main/com/example/intellicodeagent/ContextCollector.kt" />
+                    <option name="startLine" value="44" />
+                    <option name="endLine" value="49" />
+                    <option name="endCharacter" value="1" />
+                    <option name="language" value="kt" />
+                  </SymbolRecordBean>
+                </list>
+              </option>
+            </FileEntry>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../IDE_Plugin_IJ/bin/main/com/example/intellicodeagent/IntelliCodeAgentToolWindowFactory.kt">
+          <value>
+            <FileEntry>
+              <option name="meta">
+                <FileMeta>
+                  <option name="timeStamp" value="1764823874000" />
+                  <option name="hash" value="-769198610" />
+                </FileMeta>
+              </option>
+              <option name="records">
+                <list>
+                  <SymbolRecordBean>
+                    <option name="name" value="IntelliCodeAgentToolWindowFactory" />
+                    <option name="kind" value="CLASS" />
+                    <option name="filePath" value="$PROJECT_DIR$/../IDE_Plugin_IJ/bin/main/com/example/intellicodeagent/IntelliCodeAgentToolWindowFactory.kt" />
+                    <option name="startLine" value="10" />
+                    <option name="endLine" value="74" />
+                    <option name="endCharacter" value="1" />
+                    <option name="language" value="kt" />
+                  </SymbolRecordBean>
+                  <SymbolRecordBean>
+                    <option name="name" value="createToolWindowContent" />
+                    <option name="kind" value="FUNCTION" />
+                    <option name="filePath" value="$PROJECT_DIR$/../IDE_Plugin_IJ/bin/main/com/example/intellicodeagent/IntelliCodeAgentToolWindowFactory.kt" />
+                    <option name="startLine" value="11" />
+                    <option name="startCharacter" value="4" />
+                    <option name="endLine" value="16" />
+                    <option name="endCharacter" value="5" />
+                    <option name="language" value="kt" />
+                  </SymbolRecordBean>
+                  <SymbolRecordBean>
+                    <option name="name" value="IntelliCodeAgentToolWindow" />
+                    <option name="kind" value="CLASS" />
+                    <option name="filePath" value="$PROJECT_DIR$/../IDE_Plugin_IJ/bin/main/com/example/intellicodeagent/IntelliCodeAgentToolWindowFactory.kt" />
+                    <option name="startLine" value="18" />
+                    <option name="startCharacter" value="4" />
+                    <option name="endLine" value="73" />
+                    <option name="endCharacter" value="5" />
+                    <option name="language" value="kt" />
+                  </SymbolRecordBean>
+                  <SymbolRecordBean>
+                    <option name="name" value="getContent" />
+                    <option name="kind" value="FUNCTION" />
+                    <option name="filePath" value="$PROJECT_DIR$/../IDE_Plugin_IJ/bin/main/com/example/intellicodeagent/IntelliCodeAgentToolWindowFactory.kt" />
+                    <option name="startLine" value="22" />
+                    <option name="startCharacter" value="8" />
+                    <option name="endLine" value="72" />
+                    <option name="endCharacter" value="9" />
+                    <option name="language" value="kt" />
+                  </SymbolRecordBean>
+                </list>
+              </option>
+            </FileEntry>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../IDE_Plugin_IJ/bin/main/com/example/intellicodeagent/LLMClient.kt">
+          <value>
+            <FileEntry>
+              <option name="meta">
+                <FileMeta>
+                  <option name="timeStamp" value="1764824582000" />
+                  <option name="hash" value="-895655920" />
+                </FileMeta>
+              </option>
+              <option name="records">
+                <list>
+                  <SymbolRecordBean>
+                    <option name="name" value="LLMClient" />
+                    <option name="kind" value="CLASS" />
+                    <option name="filePath" value="$PROJECT_DIR$/../IDE_Plugin_IJ/bin/main/com/example/intellicodeagent/LLMClient.kt" />
+                    <option name="startLine" value="9" />
+                    <option name="endLine" value="66" />
+                    <option name="endCharacter" value="1" />
+                    <option name="language" value="kt" />
+                  </SymbolRecordBean>
+                  <SymbolRecordBean>
+                    <option name="name" value="sendRequest" />
+                    <option name="kind" value="FUNCTION" />
+                    <option name="filePath" value="$PROJECT_DIR$/../IDE_Plugin_IJ/bin/main/com/example/intellicodeagent/LLMClient.kt" />
+                    <option name="startLine" value="17" />
+                    <option name="startCharacter" value="4" />
+                    <option name="endLine" value="50" />
+                    <option name="endCharacter" value="5" />
+                    <option name="language" value="kt" />
+                  </SymbolRecordBean>
+                  <SymbolRecordBean>
+                    <option name="name" value="parseResponse" />
+                    <option name="kind" value="FUNCTION" />
+                    <option name="filePath" value="$PROJECT_DIR$/../IDE_Plugin_IJ/bin/main/com/example/intellicodeagent/LLMClient.kt" />
+                    <option name="startLine" value="52" />
+                    <option name="startCharacter" value="4" />
+                    <option name="endLine" value="59" />
+                    <option name="endCharacter" value="5" />
+                    <option name="language" value="kt" />
+                  </SymbolRecordBean>
+                  <SymbolRecordBean>
+                    <option name="name" value="GeminiResponse" />
+                    <option name="kind" value="CLASS" />
+                    <option name="filePath" value="$PROJECT_DIR$/../IDE_Plugin_IJ/bin/main/com/example/intellicodeagent/LLMClient.kt" />
+                    <option name="startLine" value="62" />
+                    <option name="startCharacter" value="4" />
+                    <option name="endLine" value="62" />
+                    <option name="endCharacter" value="63" />
+                    <option name="language" value="kt" />
+                  </SymbolRecordBean>
+                  <SymbolRecordBean>
+                    <option name="name" value="Candidate" />
+                    <option name="kind" value="CLASS" />
+                    <option name="filePath" value="$PROJECT_DIR$/../IDE_Plugin_IJ/bin/main/com/example/intellicodeagent/LLMClient.kt" />
+                    <option name="startLine" value="63" />
+                    <option name="startCharacter" value="4" />
+                    <option name="endLine" value="63" />
+                    <option name="endCharacter" value="47" />
+                    <option name="language" value="kt" />
+                  </SymbolRecordBean>
+                  <SymbolRecordBean>
+                    <option name="name" value="Content" />
+                    <option name="kind" value="CLASS" />
+                    <option name="filePath" value="$PROJECT_DIR$/../IDE_Plugin_IJ/bin/main/com/example/intellicodeagent/LLMClient.kt" />
+                    <option name="startLine" value="64" />
+                    <option name="startCharacter" value="4" />
+                    <option name="endLine" value="64" />
+                    <option name="endCharacter" value="46" />
+                    <option name="language" value="kt" />
+                  </SymbolRecordBean>
+                  <SymbolRecordBean>
+                    <option name="name" value="Part" />
+                    <option name="kind" value="CLASS" />
+                    <option name="filePath" value="$PROJECT_DIR$/../IDE_Plugin_IJ/bin/main/com/example/intellicodeagent/LLMClient.kt" />
+                    <option name="startLine" value="65" />
+                    <option name="startCharacter" value="4" />
+                    <option name="endLine" value="65" />
+                    <option name="endCharacter" value="38" />
+                    <option name="language" value="kt" />
+                  </SymbolRecordBean>
+                </list>
+              </option>
+            </FileEntry>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../IDE_Plugin_IJ/build.gradle.kts">
+          <value>
+            <FileEntry>
+              <option name="meta">
+                <FileMeta>
+                  <option name="timeStamp" value="1764827530000" />
+                  <option name="hash" value="-153259602" />
+                </FileMeta>
+              </option>
+            </FileEntry>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../IDE_Plugin_IJ/build_clean/idea-sandbox/IC-2023.2.6/system/plugins/brokenPlugins.json">
+          <value>
+            <FileEntry>
+              <option name="meta">
+                <FileMeta>
+                  <option name="timeStamp" value="1764844178000" />
+                  <option name="hash" value="1726283074" />
+                </FileMeta>
+              </option>
+            </FileEntry>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../IDE_Plugin_IJ/build_clean/idea-sandbox/IC-2023.2.6/system/plugins/jbPluginsXMLIds.json">
+          <value>
+            <FileEntry>
+              <option name="meta">
+                <FileMeta>
+                  <option name="timeStamp" value="1764844220000" />
+                  <option name="hash" value="39702290" />
+                </FileMeta>
+              </option>
+            </FileEntry>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../IDE_Plugin_IJ/build_clean/idea-sandbox/IC-2023.2.6/system/plugins/meta/488301.json">
+          <value>
+            <FileEntry>
+              <option name="meta">
+                <FileMeta>
+                  <option name="timeStamp" value="1764828694000" />
+                  <option name="hash" value="333507344" />
+                </FileMeta>
+              </option>
+            </FileEntry>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../IDE_Plugin_IJ/build_clean/idea-sandbox/IC-2023.2.6/system/plugins/meta/533406.json">
+          <value>
+            <FileEntry>
+              <option name="meta">
+                <FileMeta>
+                  <option name="timeStamp" value="1764828690000" />
+                  <option name="hash" value="1361361505" />
+                </FileMeta>
+              </option>
+            </FileEntry>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../IDE_Plugin_IJ/build_clean/idea-sandbox/IC-2023.2.6/system/plugins/pluginsXMLIds.json">
+          <value>
+            <FileEntry>
+              <option name="meta">
+                <FileMeta>
+                  <option name="timeStamp" value="1764828690000" />
+                  <option name="hash" value="1773783536" />
+                </FileMeta>
+              </option>
+            </FileEntry>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../IDE_Plugin_IJ/settings.gradle.kts">
+          <value>
+            <FileEntry>
+              <option name="meta">
+                <FileMeta>
+                  <option name="timeStamp" value="1764823141000" />
+                  <option name="hash" value="-707801887" />
+                </FileMeta>
+              </option>
+            </FileEntry>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../IDE_Plugin_IJ/src/main/kotlin/com/example/intellicodeagent/AgentService.kt">
+          <value>
+            <FileEntry>
+              <option name="meta">
+                <FileMeta>
+                  <option name="timeStamp" value="1764822562000" />
+                  <option name="hash" value="-588697708" />
+                </FileMeta>
+              </option>
+              <option name="records">
+                <list>
+                  <SymbolRecordBean>
+                    <option name="name" value="AgentService" />
+                    <option name="kind" value="CLASS" />
+                    <option name="filePath" value="$PROJECT_DIR$/../IDE_Plugin_IJ/src/main/kotlin/com/example/intellicodeagent/AgentService.kt" />
+                    <option name="startLine" value="5" />
+                    <option name="endLine" value="30" />
+                    <option name="endCharacter" value="1" />
+                    <option name="language" value="kt" />
+                  </SymbolRecordBean>
+                  <SymbolRecordBean>
+                    <option name="name" value="processUserRequest" />
+                    <option name="kind" value="FUNCTION" />
+                    <option name="filePath" value="$PROJECT_DIR$/../IDE_Plugin_IJ/src/main/kotlin/com/example/intellicodeagent/AgentService.kt" />
+                    <option name="startLine" value="9" />
+                    <option name="startCharacter" value="4" />
+                    <option name="endLine" value="14" />
+                    <option name="endCharacter" value="5" />
+                    <option name="language" value="kt" />
+                  </SymbolRecordBean>
+                  <SymbolRecordBean>
+                    <option name="name" value="constructPrompt" />
+                    <option name="kind" value="FUNCTION" />
+                    <option name="filePath" value="$PROJECT_DIR$/../IDE_Plugin_IJ/src/main/kotlin/com/example/intellicodeagent/AgentService.kt" />
+                    <option name="startLine" value="16" />
+                    <option name="startCharacter" value="4" />
+                    <option name="endLine" value="29" />
+                    <option name="endCharacter" value="5" />
+                    <option name="language" value="kt" />
+                  </SymbolRecordBean>
+                </list>
+              </option>
+            </FileEntry>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../IDE_Plugin_IJ/src/main/kotlin/com/example/intellicodeagent/ContextCollector.kt">
+          <value>
+            <FileEntry>
+              <option name="meta">
+                <FileMeta>
+                  <option name="timeStamp" value="1764822532000" />
+                  <option name="hash" value="732654691" />
+                </FileMeta>
+              </option>
+              <option name="records">
+                <list>
+                  <SymbolRecordBean>
+                    <option name="name" value="ContextCollector" />
+                    <option name="kind" value="CLASS" />
+                    <option name="filePath" value="$PROJECT_DIR$/../IDE_Plugin_IJ/src/main/kotlin/com/example/intellicodeagent/ContextCollector.kt" />
+                    <option name="startLine" value="9" />
+                    <option name="endLine" value="42" />
+                    <option name="endCharacter" value="1" />
+                    <option name="language" value="kt" />
+                  </SymbolRecordBean>
+                  <SymbolRecordBean>
+                    <option name="name" value="collectContext" />
+                    <option name="kind" value="FUNCTION" />
+                    <option name="filePath" value="$PROJECT_DIR$/../IDE_Plugin_IJ/src/main/kotlin/com/example/intellicodeagent/ContextCollector.kt" />
+                    <option name="startLine" value="11" />
+                    <option name="startCharacter" value="4" />
+                    <option name="endLine" value="23" />
+                    <option name="endCharacter" value="5" />
+                    <option name="language" value="kt" />
+                  </SymbolRecordBean>
+                  <SymbolRecordBean>
+                    <option name="name" value="getCurrentFile" />
+                    <option name="kind" value="FUNCTION" />
+                    <option name="filePath" value="$PROJECT_DIR$/../IDE_Plugin_IJ/src/main/kotlin/com/example/intellicodeagent/ContextCollector.kt" />
+                    <option name="startLine" value="25" />
+                    <option name="startCharacter" value="4" />
+                    <option name="endLine" value="27" />
+                    <option name="endCharacter" value="5" />
+                    <option name="language" value="kt" />
+                  </SymbolRecordBean>
+                  <SymbolRecordBean>
+                    <option name="name" value="getSelectedCode" />
+                    <option name="kind" value="FUNCTION" />
+                    <option name="filePath" value="$PROJECT_DIR$/../IDE_Plugin_IJ/src/main/kotlin/com/example/intellicodeagent/ContextCollector.kt" />
+                    <option name="startLine" value="29" />
+                    <option name="startCharacter" value="4" />
+                    <option name="endLine" value="31" />
+                    <option name="endCharacter" value="5" />
+                    <option name="language" value="kt" />
+                  </SymbolRecordBean>
+                  <SymbolRecordBean>
+                    <option name="name" value="getFileContent" />
+                    <option name="kind" value="FUNCTION" />
+                    <option name="filePath" value="$PROJECT_DIR$/../IDE_Plugin_IJ/src/main/kotlin/com/example/intellicodeagent/ContextCollector.kt" />
+                    <option name="startLine" value="33" />
+                    <option name="startCharacter" value="4" />
+                    <option name="endLine" value="41" />
+                    <option name="endCharacter" value="5" />
+                    <option name="language" value="kt" />
+                  </SymbolRecordBean>
+                  <SymbolRecordBean>
+                    <option name="name" value="AgentContext" />
+                    <option name="kind" value="CLASS" />
+                    <option name="filePath" value="$PROJECT_DIR$/../IDE_Plugin_IJ/src/main/kotlin/com/example/intellicodeagent/ContextCollector.kt" />
+                    <option name="startLine" value="44" />
+                    <option name="endLine" value="49" />
+                    <option name="endCharacter" value="1" />
+                    <option name="language" value="kt" />
+                  </SymbolRecordBean>
+                </list>
+              </option>
+            </FileEntry>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../IDE_Plugin_IJ/src/main/kotlin/com/example/intellicodeagent/IntelliCodeAgentToolWindowFactory.kt">
+          <value>
+            <FileEntry>
+              <option name="meta">
+                <FileMeta>
+                  <option name="timeStamp" value="1764823874000" />
+                  <option name="hash" value="-769198610" />
+                </FileMeta>
+              </option>
+              <option name="records">
+                <list>
+                  <SymbolRecordBean>
+                    <option name="name" value="IntelliCodeAgentToolWindowFactory" />
+                    <option name="kind" value="CLASS" />
+                    <option name="filePath" value="$PROJECT_DIR$/../IDE_Plugin_IJ/src/main/kotlin/com/example/intellicodeagent/IntelliCodeAgentToolWindowFactory.kt" />
+                    <option name="startLine" value="10" />
+                    <option name="endLine" value="74" />
+                    <option name="endCharacter" value="1" />
+                    <option name="language" value="kt" />
+                  </SymbolRecordBean>
+                  <SymbolRecordBean>
+                    <option name="name" value="createToolWindowContent" />
+                    <option name="kind" value="FUNCTION" />
+                    <option name="filePath" value="$PROJECT_DIR$/../IDE_Plugin_IJ/src/main/kotlin/com/example/intellicodeagent/IntelliCodeAgentToolWindowFactory.kt" />
+                    <option name="startLine" value="11" />
+                    <option name="startCharacter" value="4" />
+                    <option name="endLine" value="16" />
+                    <option name="endCharacter" value="5" />
+                    <option name="language" value="kt" />
+                  </SymbolRecordBean>
+                  <SymbolRecordBean>
+                    <option name="name" value="IntelliCodeAgentToolWindow" />
+                    <option name="kind" value="CLASS" />
+                    <option name="filePath" value="$PROJECT_DIR$/../IDE_Plugin_IJ/src/main/kotlin/com/example/intellicodeagent/IntelliCodeAgentToolWindowFactory.kt" />
+                    <option name="startLine" value="18" />
+                    <option name="startCharacter" value="4" />
+                    <option name="endLine" value="73" />
+                    <option name="endCharacter" value="5" />
+                    <option name="language" value="kt" />
+                  </SymbolRecordBean>
+                  <SymbolRecordBean>
+                    <option name="name" value="getContent" />
+                    <option name="kind" value="FUNCTION" />
+                    <option name="filePath" value="$PROJECT_DIR$/../IDE_Plugin_IJ/src/main/kotlin/com/example/intellicodeagent/IntelliCodeAgentToolWindowFactory.kt" />
+                    <option name="startLine" value="22" />
+                    <option name="startCharacter" value="8" />
+                    <option name="endLine" value="72" />
+                    <option name="endCharacter" value="9" />
+                    <option name="language" value="kt" />
+                  </SymbolRecordBean>
+                </list>
+              </option>
+            </FileEntry>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../IDE_Plugin_IJ/src/main/kotlin/com/example/intellicodeagent/LLMClient.kt">
+          <value>
+            <FileEntry>
+              <option name="meta">
+                <FileMeta>
+                  <option name="timeStamp" value="1764828427000" />
+                  <option name="hash" value="-1154013145" />
+                </FileMeta>
+              </option>
+              <option name="records">
+                <list>
+                  <SymbolRecordBean>
+                    <option name="name" value="LLMClient" />
+                    <option name="kind" value="CLASS" />
+                    <option name="filePath" value="$PROJECT_DIR$/../IDE_Plugin_IJ/src/main/kotlin/com/example/intellicodeagent/LLMClient.kt" />
+                    <option name="startLine" value="9" />
+                    <option name="endLine" value="66" />
+                    <option name="endCharacter" value="1" />
+                    <option name="language" value="kt" />
+                  </SymbolRecordBean>
+                  <SymbolRecordBean>
+                    <option name="name" value="sendRequest" />
+                    <option name="kind" value="FUNCTION" />
+                    <option name="filePath" value="$PROJECT_DIR$/../IDE_Plugin_IJ/src/main/kotlin/com/example/intellicodeagent/LLMClient.kt" />
+                    <option name="startLine" value="17" />
+                    <option name="startCharacter" value="4" />
+                    <option name="endLine" value="50" />
+                    <option name="endCharacter" value="5" />
+                    <option name="language" value="kt" />
+                  </SymbolRecordBean>
+                  <SymbolRecordBean>
+                    <option name="name" value="parseResponse" />
+                    <option name="kind" value="FUNCTION" />
+                    <option name="filePath" value="$PROJECT_DIR$/../IDE_Plugin_IJ/src/main/kotlin/com/example/intellicodeagent/LLMClient.kt" />
+                    <option name="startLine" value="52" />
+                    <option name="startCharacter" value="4" />
+                    <option name="endLine" value="59" />
+                    <option name="endCharacter" value="5" />
+                    <option name="language" value="kt" />
+                  </SymbolRecordBean>
+                  <SymbolRecordBean>
+                    <option name="name" value="GeminiResponse" />
+                    <option name="kind" value="CLASS" />
+                    <option name="filePath" value="$PROJECT_DIR$/../IDE_Plugin_IJ/src/main/kotlin/com/example/intellicodeagent/LLMClient.kt" />
+                    <option name="startLine" value="62" />
+                    <option name="startCharacter" value="4" />
+                    <option name="endLine" value="62" />
+                    <option name="endCharacter" value="63" />
+                    <option name="language" value="kt" />
+                  </SymbolRecordBean>
+                  <SymbolRecordBean>
+                    <option name="name" value="Candidate" />
+                    <option name="kind" value="CLASS" />
+                    <option name="filePath" value="$PROJECT_DIR$/../IDE_Plugin_IJ/src/main/kotlin/com/example/intellicodeagent/LLMClient.kt" />
+                    <option name="startLine" value="63" />
+                    <option name="startCharacter" value="4" />
+                    <option name="endLine" value="63" />
+                    <option name="endCharacter" value="47" />
+                    <option name="language" value="kt" />
+                  </SymbolRecordBean>
+                  <SymbolRecordBean>
+                    <option name="name" value="Content" />
+                    <option name="kind" value="CLASS" />
+                    <option name="filePath" value="$PROJECT_DIR$/../IDE_Plugin_IJ/src/main/kotlin/com/example/intellicodeagent/LLMClient.kt" />
+                    <option name="startLine" value="64" />
+                    <option name="startCharacter" value="4" />
+                    <option name="endLine" value="64" />
+                    <option name="endCharacter" value="46" />
+                    <option name="language" value="kt" />
+                  </SymbolRecordBean>
+                  <SymbolRecordBean>
+                    <option name="name" value="Part" />
+                    <option name="kind" value="CLASS" />
+                    <option name="filePath" value="$PROJECT_DIR$/../IDE_Plugin_IJ/src/main/kotlin/com/example/intellicodeagent/LLMClient.kt" />
+                    <option name="startLine" value="65" />
+                    <option name="startCharacter" value="4" />
+                    <option name="endLine" value="65" />
+                    <option name="endCharacter" value="38" />
+                    <option name="language" value="kt" />
+                  </SymbolRecordBean>
+                </list>
+              </option>
+            </FileEntry>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/grafana/dashboards/application-dashboard.json">
           <value>
             <FileEntry>
@@ -1026,8 +1652,8 @@
             <FileEntry>
               <option name="meta">
                 <FileMeta>
-                  <option name="timeStamp" value="1764858536053" />
-                  <option name="hash" value="53399230" />
+                  <option name="timeStamp" value="1764929017983" />
+                  <option name="hash" value="-451186597" />
                 </FileMeta>
               </option>
               <option name="records">
@@ -1036,8 +1662,8 @@
                     <option name="name" value="RabbitMQConfig" />
                     <option name="kind" value="CLASS" />
                     <option name="filePath" value="$PROJECT_DIR$/payment-service/src/main/java/com/example/payment/config/RabbitMQConfig.java" />
-                    <option name="startLine" value="16" />
-                    <option name="endLine" value="108" />
+                    <option name="startLine" value="17" />
+                    <option name="endLine" value="109" />
                     <option name="endCharacter" value="1" />
                     <option name="language" value="java" />
                   </SymbolRecordBean>
@@ -1045,9 +1671,9 @@
                     <option name="name" value="paymentExchange" />
                     <option name="kind" value="VARIABLE" />
                     <option name="filePath" value="$PROJECT_DIR$/payment-service/src/main/java/com/example/payment/config/RabbitMQConfig.java" />
-                    <option name="startLine" value="20" />
+                    <option name="startLine" value="21" />
                     <option name="startCharacter" value="19" />
-                    <option name="endLine" value="20" />
+                    <option name="endLine" value="21" />
                     <option name="endCharacter" value="34" />
                     <option name="language" value="java" />
                   </SymbolRecordBean>
@@ -1055,9 +1681,9 @@
                     <option name="name" value="paymentEventsQueue" />
                     <option name="kind" value="VARIABLE" />
                     <option name="filePath" value="$PROJECT_DIR$/payment-service/src/main/java/com/example/payment/config/RabbitMQConfig.java" />
-                    <option name="startLine" value="23" />
+                    <option name="startLine" value="24" />
                     <option name="startCharacter" value="19" />
-                    <option name="endLine" value="23" />
+                    <option name="endLine" value="24" />
                     <option name="endCharacter" value="37" />
                     <option name="language" value="java" />
                   </SymbolRecordBean>
@@ -1065,9 +1691,9 @@
                     <option name="name" value="paymentEventsDlq" />
                     <option name="kind" value="VARIABLE" />
                     <option name="filePath" value="$PROJECT_DIR$/payment-service/src/main/java/com/example/payment/config/RabbitMQConfig.java" />
-                    <option name="startLine" value="26" />
+                    <option name="startLine" value="27" />
                     <option name="startCharacter" value="19" />
-                    <option name="endLine" value="26" />
+                    <option name="endLine" value="27" />
                     <option name="endCharacter" value="35" />
                     <option name="language" value="java" />
                   </SymbolRecordBean>
@@ -1075,9 +1701,9 @@
                     <option name="name" value="paymentCreatedRoutingKey" />
                     <option name="kind" value="VARIABLE" />
                     <option name="filePath" value="$PROJECT_DIR$/payment-service/src/main/java/com/example/payment/config/RabbitMQConfig.java" />
-                    <option name="startLine" value="29" />
+                    <option name="startLine" value="30" />
                     <option name="startCharacter" value="19" />
-                    <option name="endLine" value="29" />
+                    <option name="endLine" value="30" />
                     <option name="endCharacter" value="43" />
                     <option name="language" value="java" />
                   </SymbolRecordBean>
@@ -1085,9 +1711,9 @@
                     <option name="name" value="paymentExchange" />
                     <option name="kind" value="METHOD" />
                     <option name="filePath" value="$PROJECT_DIR$/payment-service/src/main/java/com/example/payment/config/RabbitMQConfig.java" />
-                    <option name="startLine" value="34" />
+                    <option name="startLine" value="35" />
                     <option name="startCharacter" value="4" />
-                    <option name="endLine" value="37" />
+                    <option name="endLine" value="38" />
                     <option name="endCharacter" value="5" />
                     <option name="language" value="java" />
                   </SymbolRecordBean>
@@ -1095,9 +1721,9 @@
                     <option name="name" value="deadLetterExchange" />
                     <option name="kind" value="METHOD" />
                     <option name="filePath" value="$PROJECT_DIR$/payment-service/src/main/java/com/example/payment/config/RabbitMQConfig.java" />
-                    <option name="startLine" value="42" />
+                    <option name="startLine" value="43" />
                     <option name="startCharacter" value="4" />
-                    <option name="endLine" value="45" />
+                    <option name="endLine" value="46" />
                     <option name="endCharacter" value="5" />
                     <option name="language" value="java" />
                   </SymbolRecordBean>
@@ -1105,9 +1731,9 @@
                     <option name="name" value="paymentEventsQueue" />
                     <option name="kind" value="METHOD" />
                     <option name="filePath" value="$PROJECT_DIR$/payment-service/src/main/java/com/example/payment/config/RabbitMQConfig.java" />
-                    <option name="startLine" value="50" />
+                    <option name="startLine" value="51" />
                     <option name="startCharacter" value="4" />
-                    <option name="endLine" value="57" />
+                    <option name="endLine" value="58" />
                     <option name="endCharacter" value="5" />
                     <option name="language" value="java" />
                   </SymbolRecordBean>
@@ -1115,9 +1741,9 @@
                     <option name="name" value="paymentEventsDlq" />
                     <option name="kind" value="METHOD" />
                     <option name="filePath" value="$PROJECT_DIR$/payment-service/src/main/java/com/example/payment/config/RabbitMQConfig.java" />
-                    <option name="startLine" value="62" />
+                    <option name="startLine" value="63" />
                     <option name="startCharacter" value="4" />
-                    <option name="endLine" value="67" />
+                    <option name="endLine" value="68" />
                     <option name="endCharacter" value="5" />
                     <option name="language" value="java" />
                   </SymbolRecordBean>
@@ -1125,9 +1751,9 @@
                     <option name="name" value="paymentEventsBinding" />
                     <option name="kind" value="METHOD" />
                     <option name="filePath" value="$PROJECT_DIR$/payment-service/src/main/java/com/example/payment/config/RabbitMQConfig.java" />
-                    <option name="startLine" value="72" />
+                    <option name="startLine" value="73" />
                     <option name="startCharacter" value="4" />
-                    <option name="endLine" value="78" />
+                    <option name="endLine" value="79" />
                     <option name="endCharacter" value="5" />
                     <option name="language" value="java" />
                   </SymbolRecordBean>
@@ -1135,9 +1761,9 @@
                     <option name="name" value="deadLetterBinding" />
                     <option name="kind" value="METHOD" />
                     <option name="filePath" value="$PROJECT_DIR$/payment-service/src/main/java/com/example/payment/config/RabbitMQConfig.java" />
-                    <option name="startLine" value="83" />
+                    <option name="startLine" value="84" />
                     <option name="startCharacter" value="4" />
-                    <option name="endLine" value="89" />
+                    <option name="endLine" value="90" />
                     <option name="endCharacter" value="5" />
                     <option name="language" value="java" />
                   </SymbolRecordBean>
@@ -1145,9 +1771,9 @@
                     <option name="name" value="jsonMessageConverter" />
                     <option name="kind" value="METHOD" />
                     <option name="filePath" value="$PROJECT_DIR$/payment-service/src/main/java/com/example/payment/config/RabbitMQConfig.java" />
-                    <option name="startLine" value="94" />
+                    <option name="startLine" value="95" />
                     <option name="startCharacter" value="4" />
-                    <option name="endLine" value="97" />
+                    <option name="endLine" value="98" />
                     <option name="endCharacter" value="5" />
                     <option name="language" value="java" />
                   </SymbolRecordBean>
@@ -1155,9 +1781,9 @@
                     <option name="name" value="rabbitTemplate" />
                     <option name="kind" value="METHOD" />
                     <option name="filePath" value="$PROJECT_DIR$/payment-service/src/main/java/com/example/payment/config/RabbitMQConfig.java" />
-                    <option name="startLine" value="102" />
+                    <option name="startLine" value="103" />
                     <option name="startCharacter" value="4" />
-                    <option name="endLine" value="107" />
+                    <option name="endLine" value="108" />
                     <option name="endCharacter" value="5" />
                     <option name="language" value="java" />
                   </SymbolRecordBean>
@@ -1165,9 +1791,9 @@
                     <option name="name" value="rabbitTemplate" />
                     <option name="kind" value="VARIABLE" />
                     <option name="filePath" value="$PROJECT_DIR$/payment-service/src/main/java/com/example/payment/config/RabbitMQConfig.java" />
-                    <option name="startLine" value="104" />
+                    <option name="startLine" value="105" />
                     <option name="startCharacter" value="23" />
-                    <option name="endLine" value="104" />
+                    <option name="endLine" value="105" />
                     <option name="endCharacter" value="77" />
                     <option name="language" value="java" />
                   </SymbolRecordBean>
@@ -1881,7 +2507,7 @@
             <FileEntry>
               <option name="meta">
                 <FileMeta>
-                  <option name="timeStamp" value="1764858789571" />
+                  <option name="timeStamp" value="1764929352808" />
                   <option name="hash" value="1185561601" />
                 </FileMeta>
               </option>

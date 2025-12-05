@@ -22,16 +22,15 @@ spring:
       ddl-auto: update
     properties:
       hibernate:
-        dialect: org.hibernate.dialect.MySQL8Dialect
+        # Do not set 'hibernate.dialect' (Boot/Hibernate will auto-select MySQLDialect)
         format_sql: true
-        show_sql: false
         jdbc:
           batch_size: 25
         order_inserts: true
         order_updates: true
     open-in-view: false
 
-  # RabbitMQ configuration
+  # RabbitMQ connection (Spring AMQP)
   rabbitmq:
     host: rabbitmq
     port: 5672
@@ -46,13 +45,16 @@ spring:
         max-attempts: 3
         max-interval: 10000
         multiplier: 2
-    exchange:
-      payment: payment.events
-    queue:
-      payment-events: payment-events-queue
-      payment-events-dlq: payment-events-dlq
-    routing-key:
-      payment-created: payment.created
+
+# Application-level RabbitMQ properties expected by RabbitMQConfig (@Value("${rabbitmq....}"))
+rabbitmq:
+  exchange:
+    payment: ${RABBITMQ_EXCHANGE_PAYMENT:payment.events}
+  queue:
+    payment-events: ${RABBITMQ_QUEUE_PAYMENT_EVENTS:payment-events-queue}
+    payment-events-dlq: ${RABBITMQ_QUEUE_PAYMENT_EVENTS_DLQ:payment-events-dlq}
+  routing-key:
+    payment-created: ${RABBITMQ_ROUTING_KEY_PAYMENT_CREATED:payment.created}
 
 # Server configuration
 server:
@@ -97,7 +99,7 @@ logging:
     com.example.payment: DEBUG
     org.springframework.web: INFO
     org.springframework.amqp: INFO
-    org.hibernate.SQL: DEBUG
+    org.hibernate.SQL: WARN
     org.hibernate.type.descriptor.sql.BasicBinder: TRACE
   pattern:
     console: "%d{yyyy-MM-dd HH:mm:ss.SSS} [%thread] %-5level %logger{36} - traceId=%X{traceId:-N/A} spanId=%X{spanId:-N/A} paymentId=%X{paymentId:-N/A} - %msg%n"

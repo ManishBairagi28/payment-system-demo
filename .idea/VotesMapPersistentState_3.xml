@@ -3,6 +3,13 @@
   <component name="VotesMapPersistentState">
     <option name="votesMap">
       <map>
+        <entry key="070b7c04-1fa9-4b91-b211-dcdc6fe25b50">
+          <value>
+            <VoteCacheDTO>
+              <option name="voteTime" value="2025-12-05T11:16:22.669402400Z" />
+            </VoteCacheDTO>
+          </value>
+        </entry>
         <entry key="07af2f50-9846-4fc5-a2cb-b792b106fed0">
           <value>
             <VoteCacheDTO>
@@ -17,10 +24,45 @@
             </VoteCacheDTO>
           </value>
         </entry>
+        <entry key="0d5b46cd-5f07-42bb-9aa3-a13938d8b734">
+          <value>
+            <VoteCacheDTO>
+              <option name="voteTime" value="2025-12-04T17:32:01.871347300Z" />
+            </VoteCacheDTO>
+          </value>
+        </entry>
+        <entry key="1fb5af34-d3df-477d-b42c-8bb8ab680293">
+          <value>
+            <VoteCacheDTO>
+              <option name="voteTime" value="2025-12-05T10:54:38.368763100Z" />
+            </VoteCacheDTO>
+          </value>
+        </entry>
+        <entry key="31d1c581-5a73-40df-b223-0ce12c82c76b">
+          <value>
+            <VoteCacheDTO>
+              <option name="voteTime" value="2025-12-05T10:09:03.441186600Z" />
+            </VoteCacheDTO>
+          </value>
+        </entry>
+        <entry key="3602f3b6-225f-47ee-b40d-454ac579951e">
+          <value>
+            <VoteCacheDTO>
+              <option name="voteTime" value="2025-12-05T12:10:35.776052300Z" />
+            </VoteCacheDTO>
+          </value>
+        </entry>
         <entry key="3680f70b-aba1-4cc3-a31f-16c23407066e">
           <value>
             <VoteCacheDTO>
               <option name="voteTime" value="2025-12-04T14:45:44.177927Z" />
+            </VoteCacheDTO>
+          </value>
+        </entry>
+        <entry key="38909f18-91b8-478a-b59d-46178f08ce46">
+          <value>
+            <VoteCacheDTO>
+              <option name="voteTime" value="2025-12-04T17:21:37.338654700Z" />
             </VoteCacheDTO>
           </value>
         </entry>
@@ -31,10 +73,101 @@
             </VoteCacheDTO>
           </value>
         </entry>
+        <entry key="3dc62ec4-a98b-45db-b625-fe144d758ea9">
+          <value>
+            <VoteCacheDTO>
+              <option name="voteTime" value="2025-12-05T10:54:08.176594700Z" />
+            </VoteCacheDTO>
+          </value>
+        </entry>
+        <entry key="40af105b-dd1b-448d-8413-2cfad038b3fc">
+          <value>
+            <VoteCacheDTO>
+              <option name="voteTime" value="2025-12-05T08:52:33.685944300Z" />
+            </VoteCacheDTO>
+          </value>
+        </entry>
+        <entry key="470c8dfd-2139-4a5a-bff2-faf11cacb309">
+          <value>
+            <VoteCacheDTO>
+              <option name="voteTime" value="2025-12-05T08:48:37.016770500Z" />
+            </VoteCacheDTO>
+          </value>
+        </entry>
+        <entry key="51442304-ab30-4834-a224-758bec986b30">
+          <value>
+            <VoteCacheDTO>
+              <option name="voteTime" value="2025-12-04T17:31:32.537843700Z" />
+            </VoteCacheDTO>
+          </value>
+        </entry>
+        <entry key="5c02f0ca-0421-4386-9680-d45a517c52e8">
+          <value>
+            <VoteCacheDTO>
+              <option name="voteTime" value="2025-12-04T17:30:22.960826800Z" />
+            </VoteCacheDTO>
+          </value>
+        </entry>
+        <entry key="5e39650b-3511-4ec7-a964-d47032de267f">
+          <value>
+            <VoteCacheDTO>
+              <option name="voteTime" value="2025-12-05T11:26:40.104364600Z" />
+            </VoteCacheDTO>
+          </value>
+        </entry>
+        <entry key="61680caa-0170-4ec0-a47d-9329cc840337">
+          <value>
+            <VoteCacheDTO>
+              <option name="voteTime" value="2025-12-05T10:05:38.409040400Z" />
+            </VoteCacheDTO>
+          </value>
+        </entry>
         <entry key="62b9838f-5544-4a14-8078-79c88c6c8106">
           <value>
             <VoteCacheDTO>
               <option name="voteTime" value="2025-12-04T15:22:58.337034200Z" />
+            </VoteCacheDTO>
+          </value>
+        </entry>
+        <entry key="6cc4bc62-71c3-4720-9177-f2a147f2931c">
+          <value>
+            <VoteCacheDTO>
+              <option name="voteTime" value="2025-12-05T11:48:19.440217400Z" />
+            </VoteCacheDTO>
+          </value>
+        </entry>
+        <entry key="6dca4df1-8050-407a-8a62-32a45c087833">
+          <value>
+            <VoteCacheDTO>
+              <option name="voteTime" value="2025-12-05T08:03:29.002920700Z" />
+            </VoteCacheDTO>
+          </value>
+        </entry>
+        <entry key="7cd8b41c-4c1c-46d1-934c-55c1d84ae51d">
+          <value>
+            <VoteCacheDTO>
+              <option name="voteTime" value="2025-12-05T08:01:29.085310700Z" />
+            </VoteCacheDTO>
+          </value>
+        </entry>
+        <entry key="8aa89afd-688e-4bb8-a340-53e0e2e0692f">
+          <value>
+            <VoteCacheDTO>
+              <option name="voteTime" value="2025-12-04T17:29:38.860789400Z" />
+            </VoteCacheDTO>
+          </value>
+        </entry>
+        <entry key="8d8b0de1-5977-4d3c-9dd9-128cc261fcc5">
+          <value>
+            <VoteCacheDTO>
+              <option name="voteTime" value="2025-12-04T17:11:16.234130400Z" />
+            </VoteCacheDTO>
+          </value>
+        </entry>
+        <entry key="9133985a-2c7f-4e0b-b704-5b563ebc1814">
+          <value>
+            <VoteCacheDTO>
+              <option name="voteTime" value="2025-12-05T08:04:08.859851Z" />
             </VoteCacheDTO>
           </value>
         </entry>
@@ -52,10 +185,38 @@
             </VoteCacheDTO>
           </value>
         </entry>
+        <entry key="a522a52c-31d4-48c3-ab39-44156c7ae55a">
+          <value>
+            <VoteCacheDTO>
+              <option name="voteTime" value="2025-12-05T11:35:15.860706500Z" />
+            </VoteCacheDTO>
+          </value>
+        </entry>
+        <entry key="a53fdf52-1d09-4976-a9cd-18c6f1a0c118">
+          <value>
+            <VoteCacheDTO>
+              <option name="voteTime" value="2025-12-05T10:56:14.215567500Z" />
+            </VoteCacheDTO>
+          </value>
+        </entry>
+        <entry key="a8638a49-c918-49c4-a76b-6da25d3dfeba">
+          <value>
+            <VoteCacheDTO>
+              <option name="voteTime" value="2025-12-05T08:06:41.654153900Z" />
+            </VoteCacheDTO>
+          </value>
+        </entry>
         <entry key="b2fad75a-a340-40c1-9838-2077b91eae4c">
           <value>
             <VoteCacheDTO>
               <option name="voteTime" value="2025-12-04T15:29:15.204849500Z" />
+            </VoteCacheDTO>
+          </value>
+        </entry>
+        <entry key="b41e713b-22c0-4dfb-a0a9-619e11c4d07f">
+          <value>
+            <VoteCacheDTO>
+              <option name="voteTime" value="2025-12-05T11:23:23.557703600Z" />
             </VoteCacheDTO>
           </value>
         </entry>
@@ -80,10 +241,45 @@
             </VoteCacheDTO>
           </value>
         </entry>
+        <entry key="dbc7e3e8-4e39-4c4b-90a4-96e668c5de66">
+          <value>
+            <VoteCacheDTO>
+              <option name="voteTime" value="2025-12-05T12:14:33.420390400Z" />
+            </VoteCacheDTO>
+          </value>
+        </entry>
+        <entry key="e473e18b-0f35-42db-9195-7ce854a5ae74">
+          <value>
+            <VoteCacheDTO>
+              <option name="voteTime" value="2025-12-04T17:22:58.702052300Z" />
+            </VoteCacheDTO>
+          </value>
+        </entry>
+        <entry key="e573bb4d-ec33-47f8-894e-d988e2880617">
+          <value>
+            <VoteCacheDTO>
+              <option name="voteTime" value="2025-12-04T17:33:02.699023300Z" />
+            </VoteCacheDTO>
+          </value>
+        </entry>
+        <entry key="e94d66e9-f777-47fc-a040-d111db890204">
+          <value>
+            <VoteCacheDTO>
+              <option name="voteTime" value="2025-12-04T17:30:42.323119400Z" />
+            </VoteCacheDTO>
+          </value>
+        </entry>
         <entry key="ebf3dc19-1b7f-4299-b66e-d0447b384fe4">
           <value>
             <VoteCacheDTO>
               <option name="voteTime" value="2025-12-04T15:47:01.165433900Z" />
+            </VoteCacheDTO>
+          </value>
+        </entry>
+        <entry key="f272d6ae-512e-4b78-ba55-a52caf163096">
+          <value>
+            <VoteCacheDTO>
+              <option name="voteTime" value="2025-12-04T17:22:10.224129800Z" />
             </VoteCacheDTO>
           </value>
         </entry>

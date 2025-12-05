@@ -7,6 +7,14 @@
           <value>
             <list>
               <option value="$PROJECT_DIR$/README.md" />
+              <option value="$PROJECT_DIR$/README.md" />
+              <option value="$PROJECT_DIR$/README.md" />
+              <option value="$PROJECT_DIR$/README.md" />
+              <option value="$PROJECT_DIR$/README.md" />
+              <option value="$PROJECT_DIR$/README.md" />
+              <option value="$PROJECT_DIR$/README.md" />
+              <option value="$PROJECT_DIR$/README.md" />
+              <option value="$PROJECT_DIR$/README.md" />
             </list>
           </value>
         </entry>
@@ -33,9 +41,36 @@
             </list>
           </value>
         </entry>
+        <entry key="docker/docker-compose.yml">
+          <value>
+            <list>
+              <option value="$PROJECT_DIR$/docker/docker-compose.yml" />
+            </list>
+          </value>
+        </entry>
+        <entry key="docker/loki/loki-config.yml">
+          <value>
+            <list>
+              <option value="$PROJECT_DIR$/docker/loki/loki-config.yml" />
+              <option value="$PROJECT_DIR$/docker/loki/loki-config.yml" />
+            </list>
+          </value>
+        </entry>
+        <entry key="grafana/datasources/loki-datasource.yml">
+          <value>
+            <list>
+              <option value="$PROJECT_DIR$/grafana/datasources/loki-datasource.yml" />
+            </list>
+          </value>
+        </entry>
         <entry key="main/resources/application.yml">
           <value>
             <list>
+              <option value="$PROJECT_DIR$/payment-service/src/main/resources/application.yml" />
+              <option value="$PROJECT_DIR$/payment-service/src/main/resources/application.yml" />
+              <option value="$PROJECT_DIR$/payment-service/src/main/resources/application.yml" />
+              <option value="$PROJECT_DIR$/payment-service/src/main/resources/application.yml" />
+              <option value="$PROJECT_DIR$/payment-service/src/main/resources/application.yml" />
               <option value="$PROJECT_DIR$/payment-service/src/main/resources/application.yml" />
               <option value="$PROJECT_DIR$/payment-service/src/main/resources/application.yml" />
               <option value="$PROJECT_DIR$/payment-service/src/main/resources/application.yml" />
@@ -51,6 +86,41 @@
               <option value="$PROJECT_DIR$/payment-batch-job/src/main/resources/logback-spring.xml" />
               <option value="$PROJECT_DIR$/payment-service/src/main/resources/logback-spring.xml" />
               <option value="$PROJECT_DIR$/payment-service/src/main/resources/logback-spring.xml" />
+            </list>
+          </value>
+        </entry>
+        <entry key="payment-service/logs/payment-service.log">
+          <value>
+            <list>
+              <option value="$PROJECT_DIR$/payment-service/logs/payment-service.log" />
+              <option value="$PROJECT_DIR$/payment-service/logs/payment-service.log" />
+              <option value="$PROJECT_DIR$/payment-service/logs/payment-service.log" />
+              <option value="$PROJECT_DIR$/payment-service/logs/payment-service.log" />
+            </list>
+          </value>
+        </entry>
+        <entry key="payment-service/pom.xml">
+          <value>
+            <list>
+              <option value="$PROJECT_DIR$/payment-service/pom.xml" />
+              <option value="$PROJECT_DIR$/payment-service/pom.xml" />
+              <option value="$PROJECT_DIR$/payment-service/pom.xml" />
+              <option value="$PROJECT_DIR$/payment-service/pom.xml" />
+              <option value="$PROJECT_DIR$/payment-service/pom.xml" />
+              <option value="$PROJECT_DIR$/payment-service/pom.xml" />
+              <option value="$PROJECT_DIR$/payment-service/pom.xml" />
+              <option value="$PROJECT_DIR$/payment-service/pom.xml" />
+              <option value="$PROJECT_DIR$/payment-service/pom.xml" />
+              <option value="$PROJECT_DIR$/payment-service/pom.xml" />
+              <option value="$PROJECT_DIR$/payment-service/pom.xml" />
+              <option value="$PROJECT_DIR$/payment-service/pom.xml" />
+            </list>
+          </value>
+        </entry>
+        <entry key="payment/config/RabbitMQConfig.java">
+          <value>
+            <list>
+              <option value="$PROJECT_DIR$/payment-service/src/main/java/com/example/payment/config/RabbitMQConfig.java" />
             </list>
           </value>
         </entry>
@@ -70,6 +140,20 @@
             </list>
           </value>
         </entry>
+        <entry key="payment/dto/PaymentResponse.java">
+          <value>
+            <list>
+              <option value="$PROJECT_DIR$/payment-service/src/main/java/com/example/payment/dto/PaymentResponse.java" />
+            </list>
+          </value>
+        </entry>
+        <entry key="payment/entity/Payment.java">
+          <value>
+            <list>
+              <option value="$PROJECT_DIR$/payment-service/src/main/java/com/example/payment/entity/Payment.java" />
+            </list>
+          </value>
+        </entry>
         <entry key="payment/repository/PaymentRepository.java">
           <value>
             <list>
@@ -81,6 +165,7 @@
         <entry key="payment/service/PaymentService.java">
           <value>
             <list>
+              <option value="$PROJECT_DIR$/payment-service/src/main/java/com/example/payment/service/PaymentService.java" />
               <option value="$PROJECT_DIR$/payment-service/src/main/java/com/example/payment/service/PaymentService.java" />
               <option value="$PROJECT_DIR$/payment-service/src/main/java/com/example/payment/service/PaymentService.java" />
             </list>
