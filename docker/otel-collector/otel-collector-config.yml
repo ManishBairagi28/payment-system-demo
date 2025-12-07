@@ -57,27 +57,13 @@ receivers:
           process.memory.utilization:
             enabled: true
 
-  # Docker stats receiver
+  # Docker stats receiver - CHANGE: Removed invalid metrics configuration
   docker_stats:
     endpoint: unix:///var/run/docker.sock
     collection_interval: 30s
     timeout: 20s
-    api_version: 1.24
-    metrics:
-      container.cpu.usage.total:
-        enabled: true
-      container.cpu.percent:
-        enabled: true
-      container.memory.usage.total:
-        enabled: true
-      container.memory.percent:
-        enabled: true
-      container.network.io.usage.rx_bytes:
-        enabled: true
-      container.network.io.usage.tx_bytes:
-        enabled: true
-      container.blockio.io_service_bytes_recursive:
-        enabled: true
+    api_version: "1.44"
+    # CHANGE: Removed metrics section - not supported in this receiver version
 
   # Prometheus receiver for self-monitoring
   prometheus:
@@ -123,14 +109,6 @@ processors:
         value: otel
         action: upsert
 
-  # Filter processor to exclude certain metrics if needed
-  filter/metrics:
-    metrics:
-      exclude:
-        match_type: regexp
-        metric_names:
-          - .*\.example\..*
-
 exporters:
   # Prometheus exporter
   prometheus:
@@ -143,31 +121,21 @@ exporters:
       enabled: true
     enable_open_metrics: true
 
-  # Logging exporter for debugging
-  logging:
-    loglevel: info
+  # Debug exporter for debugging
+  debug:
+    verbosity: detailed
     sampling_initial: 5
     sampling_thereafter: 200
-
-  # OTLP exporter (optional, for future use)
-  # otlp:
-  #   endpoint: "localhost:4317"
-  #   tls:
-  #     insecure: true
 
 service:
   pipelines:
     metrics:
       receivers: [hostmetrics, docker_stats, prometheus]
       processors: [memory_limiter, batch, resource, attributes/metrics]
-      exporters: [prometheus, logging]
+      exporters: [prometheus, debug]
 
-  extensions: [health_check, pprof, zpages]
+  extensions: [health_check]
 
 extensions:
   health_check:
     endpoint: 0.0.0.0:13133
-  pprof:
-    endpoint: 0.0.0.0:1777
-  zpages:
-    endpoint: 0.0.0.0:55679
