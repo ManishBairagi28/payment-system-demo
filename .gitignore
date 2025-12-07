@@ -13,6 +13,30 @@ target/
 *.swp
 *.swo
 
+
+# IntelliJ IDEA specific files (additional patterns)
+.idea/**/workspace.xml
+.idea/**/tasks.xml
+.idea/**/usage.statistics.xml
+.idea/**/dictionaries
+.idea/**/shelf
+.idea/**/contentModel.xml
+.idea/**/dataSources/
+.idea/**/dataSources.ids
+.idea/**/dataSources.local.xml
+.idea/**/sqlDataSources.xml
+.idea/**/dynamic.xml
+.idea/**/uiDesigner.xml
+.idea/**/dbnavigator.xml
+.idea/**/AIProviderCache_V2.xml
+.idea/**/AgentModelsCache_V1.xml
+.idea/**/FileNameToPathStateV1.xml
+.idea/**/SlingshotConversation_v1.xml
+.idea/**/VotesMapPersistentState_3.xml
+.idea/**/modules.xml
+.idea/**/*.iml
+
+
 # Slingshot AI assistant files
 .slingshot/
 
