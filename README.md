@@ -46,7 +46,7 @@ payment-system/
 
 ### Prerequisites
 - Docker and Docker Compose installed
-- Java 11+ (for local development)
+- Java 21+ (for local development)
 - Maven 3.6+ (for local development)
 - At least 8GB RAM available
 
