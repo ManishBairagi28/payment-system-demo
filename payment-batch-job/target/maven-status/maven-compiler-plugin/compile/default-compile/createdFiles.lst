@@ -1,7 +1,0 @@
-com\example\batch\PaymentBatchJobApplication.class
-com\example\batch\entity\PaymentStatus.class
-com\example\batch\PaymentMaintenanceRunner.class
-com\example\batch\config\PushgatewayConfig.class
-com\example\batch\repository\PaymentRepository.class
-com\example\batch\entity\Payment.class
-com\example\batch\service\PaymentMaintenanceService.class

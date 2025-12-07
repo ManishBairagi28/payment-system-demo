@@ -2,67 +2,87 @@
 <configuration>
     <include resource="org/springframework/boot/logging/logback/defaults.xml"/>
 
-    <!-- Console Appender with structured logging -->
-    <appender name="CONSOLE" class="ch.qos.logback.core.ConsoleAppender">
-        <encoder class="net.logstash.logback.encoder.LogstashEncoder">
-            <providers>
-                <timestamp>
-                    <timeZone>UTC</timeZone>
-                </timestamp>
-                <version/>
-                <logLevel/>
-                <hostname/>
-                <mdc/>
-                <thread/>
-                <logger/>
-                <loggerName/>
-                <levelValue/>
-                <callerData/>
-                <stackTrace/>
-                <message/>
-                <arguments/>
-            </providers>
-            <customFields>{"service":"payment-batch-job","environment":"local"}</customFields>
-        </encoder>
-    </appender>
+    <springProfile name="!local">
+        <include resource="org/springframework/boot/logging/logback/console-appender.xml"/>
+    </springProfile>
 
-    <!-- File Appender with JSON format -->
+    <!-- Console Appender for local development -->
+    <springProfile name="local">
+        <appender name="CONSOLE" class="ch.qos.logback.core.ConsoleAppender">
+            <encoder>
+                <pattern>%d{yyyy-MM-dd HH:mm:ss.SSS} [%thread] %-5level %logger{36} - %msg%n</pattern>
+            </encoder>
+        </appender>
+    </springProfile>
+
+    <!-- File Appender -->
     <appender name="FILE" class="ch.qos.logback.core.rolling.RollingFileAppender">
-        <file>/logs/payment-batch-job.log</file>
+        <file>logs/payment-batch-job.log</file>
         <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
-            <fileNamePattern>/logs/payment-batch-job-%d{yyyy-MM-dd}.log</fileNamePattern>
-            <maxHistory>7</maxHistory>
-            <totalSizeCap>100MB</totalSizeCap>
+            <fileNamePattern>logs/payment-batch-job-%d{yyyy-MM-dd}.log</fileNamePattern>
+            <maxHistory>30</maxHistory>
+            <totalSizeCap>1GB</totalSizeCap>
         </rollingPolicy>
         <encoder class="net.logstash.logback.encoder.LogstashEncoder">
-            <providers>
-                <timestamp>
-                    <timeZone>UTC</timeZone>
-                </timestamp>
-                <version/>
-                <logLevel/>
-                <hostname/>
-                <mdc/>
-                <thread/>
-                <logger/>
-                <loggerName/>
-                <levelValue/>
-                <callerData/>
-                <stackTrace/>
-                <message/>
-                <arguments/>
-            </providers>
-            <customFields>{"service":"payment-batch-job","environment":"local"}</customFields>
+            <includeContext>true</includeContext>
+            <includeMdc>true</includeMdc>
+            <customFields>{"service":"payment-batch-job"}</customFields>
+            <fieldNames>
+                <timestamp>@timestamp</timestamp>
+                <message>message</message>
+                <level>level</level>
+                <thread>thread</thread>
+                <logger>logger</logger>
+            </fieldNames>
+            <!-- CHANGE: Use <provider> instead of deprecated <providers> -->
+            <provider class="net.logstash.logback.composite.loggingevent.ArgumentsJsonProvider"/>
+            <provider class="net.logstash.logback.composite.loggingevent.MdcJsonProvider"/>
         </encoder>
     </appender>
 
-    <!-- Logger configurations -->
-    <logger name="com.example.batch" level="DEBUG"/>
-    <logger name="org.springframework" level="INFO"/>
-    <logger name="org.hibernate.SQL" level="DEBUG"/>
+    <!-- Loki Appender for centralized logging -->
+    <springProfile name="!local">
+        <appender name="LOKI" class="com.github.loki4j.logback.Loki4jAppender">
+            <http>
+                <url>http://loki:3100/loki/api/v1/push</url>
+            </http>
+            <format>
+                <label>
+                    <pattern>service=payment-batch-job,level=%level</pattern>
+                </label>
+                <message>
+                    <pattern>%d{yyyy-MM-dd HH:mm:ss.SSS} [%thread] %-5level %logger{36} - %msg%n</pattern>
+                </message>
+            </format>
+        </appender>
+    </springProfile>
 
+    <!-- Root Logger -->
     <root level="INFO">
-        <appender-ref ref="CONSOLE"/>
+        <springProfile name="local">
+            <appender-ref ref="CONSOLE"/>
+        </springProfile>
+        <springProfile name="!local">
+            <appender-ref ref="CONSOLE"/>
+            <appender-ref ref="LOKI"/>
+        </springProfile>
         <appender-ref ref="FILE"/>
     </root>
+
+    <!-- Application specific loggers -->
+    <logger name="com.example.batch" level="DEBUG" additivity="false">
+        <springProfile name="local">
+            <appender-ref ref="CONSOLE"/>
+        </springProfile>
+        <springProfile name="!local">
+            <appender-ref ref="CONSOLE"/>
+            <appender-ref ref="LOKI"/>
+        </springProfile>
+        <appender-ref ref="FILE"/>
+    </logger>
+
+    <!-- Spring Framework loggers -->
+    <logger name="org.springframework" level="WARN"/>
+    <logger name="org.hibernate" level="WARN"/>
+    <logger name="org.apache" level="WARN"/>
 </configuration>
