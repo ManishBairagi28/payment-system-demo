@@ -20,6 +20,23 @@ services:
       timeout: 20s
       retries: 10
 
+  phpmyadmin:
+    image: phpmyadmin/phpmyadmin:5.2.1
+    restart: always
+    ports:
+      - "8081:80"
+    environment:
+      PMA_HOST: mysql
+      PMA_PORT: 3306
+      PMA_USER: root
+      PMA_PASSWORD: root_password
+      MYSQL_ROOT_PASSWORD: root_password
+    depends_on:
+      mysql:
+        condition: service_healthy
+    networks:
+      - payment-network
+
   # RabbitMQ Message Broker
   rabbitmq:
     image: rabbitmq:3.12-management
@@ -206,24 +223,40 @@ services:
 
   # OpenTelemetry Collector
   otel-collector:
-    image: otel/opentelemetry-collector-contrib:0.141.0
+    image: otel/opentelemetry-collector-contrib:0.89.0
     container_name: otel-collector
     volumes:
-      - ./otel-collector/otel-collector-config.yml:/etc/otel-collector-config.yml
+      - ./otel-collector/otel-collector-config.yml:/etc/otelcol-contrib/otel-collector-config.yml
       - /var/run/docker.sock:/var/run/docker.sock:ro
       - /sys:/hostfs/sys:ro
       - /proc:/hostfs/proc:ro
       - /etc:/hostfs/etc:ro
-    command: ["--config=/etc/otel-collector-config.yml"]
+    command: ["--config=/etc/otelcol-contrib/otel-collector-config.yml"]
     ports:
       - "4317:4317"   # OTLP gRPC receiver
       - "4318:4318"   # OTLP HTTP receiver
       - "8888:8888"   # Prometheus metrics exposed by the collector
       - "8889:8889"   # Prometheus exporter metrics
+      - "13133:13133" # Health check port
+      # CHANGE: Removed problematic ports that conflict with Windows permissions
+      # - "1777:1777"   # pprof port - removed due to Windows permission issues
+      # - "55679:55679" # zpages port - removed due to Windows permission issues
     networks:
       - payment-network
     privileged: true
     user: "0:0"  # Run as root to access host metrics
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "wget", "--no-verbose", "--tries=1", "--spider", "http://localhost:13133/"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 40s
+    depends_on:
+      - prometheus
+    environment:
+      - GOMEMLIMIT=512MiB
+
 
   # Grafana
   grafana:

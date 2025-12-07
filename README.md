@@ -75,6 +75,7 @@ docker-compose ps
 - **Prometheus**: http://localhost:9090
 - **RabbitMQ Management**: http://localhost:15672 (guest/guest)
 - **Pushgateway**: http://localhost:9091
+- **PHP MyAdmin GUI MySql**: http://localhost:8081 (phpMyAdmin login page)
 
 ## API Endpoints
 
