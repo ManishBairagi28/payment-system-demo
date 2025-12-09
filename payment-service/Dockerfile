@@ -1,5 +1,8 @@
 # Multi-stage build for Payment Service
-FROM maven:3.9.9-eclipse-temurin-21 AS builder
+FROM amazoncorretto:21-alpine3.20-jdk AS builder
+
+# Install Maven
+RUN apk add --no-cache maven
 
 # Set working directory
 WORKDIR /app
@@ -13,10 +16,13 @@ COPY src ./src
 RUN mvn clean package -DskipTests
 
 # Runtime stage
-FROM eclipse-temurin:21-jre
+FROM eclipse-temurin:21-jre-alpine
 
 # Install curl for health checks
-RUN apt-get update && apt-get install -y curl && rm -rf /var/lib/apt/lists/*
+#RUN apt-get update && apt-get install -y curl && rm -rf /var/lib/apt/lists/*
+
+# Install curl for health checks using Alpine package manager
+RUN apk add --no-cache curl
 
 # Create logs directory
 RUN mkdir -p /logs

@@ -1,5 +1,8 @@
 # Multi-stage build for Payment Batch Job
-FROM maven:3.9-eclipse-temurin-21 AS builder
+FROM amazoncorretto:21-alpine3.20-jdk AS builder
+
+# Install Maven
+RUN apk add --no-cache maven
 
 # Set working directory
 WORKDIR /app
@@ -13,7 +16,7 @@ COPY src ./src
 RUN mvn clean package -DskipTests
 
 # Runtime stage
-FROM eclipse-temurin:21-jre
+FROM eclipse-temurin:21-jre-alpine
 
 # Create logs directory
 RUN mkdir -p /logs
